@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cs-gradecalculator"
+version = "0.1.0"
+description = "Grade calculator for CS3081 exam"
+authors = ["Juan Diego Luque Segura"]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
